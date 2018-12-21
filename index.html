@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>10 vấn đề kinh tế được quan tâm nhất Việt Nam 2018</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/slimscroll.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script>
+        $(function() {
+            var cafef = new Swiper('.swiper-container', {
+                speed: 300,
+                effect: 'fade',
+                fadeEffect: {
+                    crossFade: true
+                },
+                mousewheel: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                on: {
+                    slideChangeTransitionStart: function() {
+                        if(cafef.activeIndex > cafef.previousIndex) {
+                            $('.cafef-slide').eq(cafef.activeIndex).find('.animate').addClass('aos-init').addClass('aos-animate')
+                        }
+                    },
+                    slideChangeTransitionEnd: function() {
+                        if(cafef.activeIndex < cafef.previousIndex) {
+                            $('.cafef-slide').eq(cafef.previousIndex).find('.animate').removeClass('aos-init').removeClass('aos-animate')
+                        }
+                    }
+                }
+            });
+            new AOS.init();
+
+            $('.cafef-slide').not(':eq('+ cafef.activeIndex +')').find('.animate').removeClass('aos-init').removeClass('aos-animate');
+
+            $('.slimScroll').slimScroll({
+                height: '100%'
+            });
+
+            $('.csw-content').hover(function() {
+                cafef.mousewheel.disable();
+                cafef.allowTouchMove = false;
+            }, function() {
+                cafef.mousewheel.enable();
+                cafef.allowTouchMove = true;
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="cafef-wrapper">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="cafef-slide swiper-slide cafef-cover">
+                    <img src="images/cover-1.png" alt="" class="cc-img animate" data-aos="fade-up-right" data-aos-duration="500">
+                    <img src="images/cover-2.png" alt="" class="cc-img animate" data-aos="fade-right" data-aos-duration="500" data-aos-delay="100">
+                    <img src="images/cover-3.png" alt="" class="cc-img animate" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
+                    <img src="images/cover-4.png" alt="" class="cc-img animate" data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="200">
+                    <img src="images/cover-5.png" alt="" class="cc-img animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                    <img src="images/cover-6.png" alt="" class="cc-img animate" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+
+                    <div class="table-cell">
+                        <div class="cc-wrapper">
+                            <img src="images/title.png" alt="" class="cs-img animate" data-aos="fade-right" data-aos-duration="500" data-aos-delay="300">
+                            <img src="images/sapo.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cafef-slide swiper-slide">
+                    <div class="table-cell">
+                        <div class="cs-wrapper">
+                            <img src="images/frame.png" alt="" class="cs-img">
+                            <img src="images/subtitle-1.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500">
+                            <img src="images/quote-1.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                            <img src="images/slide-1.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-delay="200">
+
+                            <div class="csw-content animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                <div class="slimScroll">
+                                    <p>GDP năm 2018 ước tăng 7% - mức cao nhất trong vòng 10 năm kể từ khủng hoảng kinh tế 2008. Dù tăng trưởng cao nền kinh tế vẫn duy trì được ổn định vĩ mô với việc giữ vững mục tiêu kiểm soát CPI dưới 4%, nợ công giảm so với năm 2017...</p>
+
+                                    <p>Nhìn ở góc độ cận ngành, Việt Nam đang là công xưởng thế giới về điện thoại di động, dệt may,… Sự hiện diện của những cái tên hàng đầu như Samsung cùng hàng nghìn doanh nghiệp FDI khác đã bảo chứng cho chất lượng môi trường đầu tư Việt Nam.</p>
+
+                                    <p>Song song với đó, sự lớn mạnh của những tập đoàn kinh tế như Vingroup (tư nhân) và Viettel (nhà nước)… cũng cho thấy môi trường kinh doanh trong nước có thể ươm mầm nên những doanh nghiệp có tầm cỡ khu vực, có khả năng hợp tác cũng như cạnh tranh với các tập đoàn lớn của thế giới.</p>
+
+                                    <p>Mặt khác, ngày càng nhiều sản phẩm của Việt Nam xuất hiện trên bản đồ xuất khẩu tỷ đô của thế giới. Việt Nam hiện có hơn 20 mặt hàng xuất khẩu có giá trị trên 1 tỷ USD với tiềm năng tăng trưởng giá trị trong chuỗi cung ứng rất lớn. Nhiều mặt hàng nông sản giữ vị trí top đầu trên thế giới.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cafef-slide swiper-slide">
+                    <div class="table-cell">
+                        <div class="cs-wrapper">
+                            <img src="images/frame.png" alt="" class="cs-img">
+                            <img src="images/subtitle-2.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500">
+                            <img src="images/quote-2.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                            <img src="images/slide-2.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-delay="200">
+
+                            <div class="csw-content animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                <div class="slimScroll">
+                                    <p>Ngày 10/04/2018, VN-Index xác lập mức giá cao nhất lịch sử tại 1.211,34 điểm. Sự hưng phấn tột độ của một bộ phận nhà đầu tư đi kèm với quyết định “rút chân” của nhiều người khác. Kết quả, chỉ số đã đảo chiều ngay trong phiên trước áp lực chốt lời tại hàng loạt cổ phiếu lớn.</p>
+
+                                    <p>Chuỗi giảm giá của thị trường kéo dài cho đến đầu tháng 6 và trong thời gian còn lại của năm 2018. VN-Index phải chật vật để chinh phục lại các mốc 900 và 1.000 điểm trước bất ổn kinh tế gây ra bởi chiến tranh thương mại Mỹ - Trung cùng cuộc rút vốn của nhà đầu tư nước ngoài khỏi thị trường mới nổi và cận biên.</p>
+
+                                    <p>Trước khi lập đỉnh, chỉ số chứng khoán Việt Nam nằm trong xu hướng tăng giá dài hạn kéo dài từ đầu năm 2016 nhờ diễn biến thuận lợi của kinh tế vĩ mô cùng câu chuyện lên sàn chứng khoán của hàng loạt doanh nghiệp lớn và kế hoạch thoái vốn của Nhà nước.</p>
+
+                                    <p>VN-Index bứt phá ngoạn mục hơn từ quý 3/2017 đến hết quý 1/2018 nhờ sức các cổ phiếu vốn hóa lớn. Động lực đến từ câu chuyện nâng hạng thị trường (cận biên lên mới nổi), từ dòng vốn nóng của Hàn Quốc và Trung Quốc đổ vào Việt Nam khi bị hấp dẫn bởi thị trường chứng khoán tăng trưởng mạnh nhất thế giới.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cafef-slide swiper-slide">
+                    <div class="table-cell">
+                        <div class="cs-wrapper">
+                            <img src="images/frame.png" alt="" class="cs-img">
+                            <img src="images/subtitle-3.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500">
+                            <img src="images/quote-3.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                            <img src="images/slide-3.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-delay="200">
+
+                            <div class="csw-content animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                <div class="slimScroll">
+                                    <p>Ngày 08/4/2018, hàng trăm nhà đầu tư đã tố cáo công ty Modern Tech lừa đảo, chiếm đoạt hơn 15.000 tỷ đồng từ việc đầu tư vào tiền ảo iFan, Pincoin. Thực tế, iFan hấp dẫn hàng chục nghìn người tham gia bởi lãi suất “không tưởng” 576%/năm được trả đều đặn thời gian đầu và mời một sao Việt như Đàm Vĩnh Hưng, Lệ Quyên, Lam Trường… quảng bá.</p>
+
+                                    <p>Trước đó, tuyên bố tự đóng cửa của Bitconnect cũng đã khiến cho không ít nhà đầu tư Việt Nam mất tiền khi khối tài sản dưới dạng tiền ảo đang cho sàn Bitconnect vay với lãi suất cao trở thành vô giá trị.</p>
+
+                                    <p>Bản chất của các vụ việc đều là hệ quả của hoạt động đa cấp biến tướng. Dưới vỏ bọc “ứng dụng công nghệ blockchain 4.0”, phát hành tiền tiền ảo,… các “nhà cái” thực hiện huy động vốn để đầu tư vào bitcoin, ethereum… khi các đồng tiền ảo này đang tăng phi mã. Khi tiền ảo bị “sập sàn”, việc dùng tiền của nhà đầu tư sau trả cho nhà đầu tư trước bị đổ bể, “nhà cái” iFan – ông Diệp Khắc Cường, biến mất và nhà đầu tư trắng tay.</p>
+
+                                    <p>Ngân hàng Nhà nước nhiều lần khẳng định, các loại tiền ảo không phải là tiền tệ và phương thức thanh toán hợp pháp tại Việt Nam. Việc phát hành, cung ứng, sử dụng Bitcoin và các loại tiền ảo tương tự khác làm phương tiện thanh toán là hành vi bị cấm tại Việt Nam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cafef-slide swiper-slide">
+                    <div class="table-cell">
+                        <div class="cs-wrapper">
+                            <img src="images/frame.png" alt="" class="cs-img">
+                            <img src="images/subtitle-4.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500">
+                            <img src="images/quote-4.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                            <img src="images/slide-4.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-delay="200">
+
+                            <div class="csw-content animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                <div class="slimScroll">
+                                    <p>Ngày 13/4/2018, Bộ Tài chính họp báo công bố dự án Luật thuế tài sản. Điểm đáng chú ý là đề xuất đánh thuế đối với nhà có ngưỡng chịu thuế trên 700 triệu đồng và ô tô có ngưỡng chịu thuế trên 1,5 tỷ đồng. Đề xuất này nhanh chóng bị phản đối.</p>
+
+                                    <p>Mức xác định đóng thuế được đánh giá sẽ tác động tiêu cực đến người nghèo, tầng lớp trung lưu, là thuế chồng lên thuế. Những mục tiêu điều tiết, cân bằng xã hội không được thực hiện.</p>
+
+                                    <p>Ngày 17/4, Văn phòng Chính phủ phát đi thông tin Chính phủ chưa xem xét đề xuất Dự án Thuế tài sản, đây mới chỉ là đề xuất của Bộ Tài chính. Thủ tướng Nguyễn Xuân Phúc lưu ý: “Nếu chúng ta hành động chủ quan, duy ý chí thì xa dân, mất niềm tin của dân, hậu quả sẽ rất lớn đối với đất nước, với xã hội".</p>
+
+                                    <p>Ngày 20/4, Bộ trưởng Tài chính Đinh Tiến Dũng đã có cuộc gặp với báo giới để giải thích lý do ra đời của Dự luật và khẳng định người nghèo, người thu nhập thấp sẽ không bị ảnh hưởng.</p>
+
+                                    <p>Cũng trong hôm 20/4, Thủ tướng nhấn mạnh dự Luật phải hướng đến người giàu, người có hai nhà trở lên. Ông cũng lưu ý: "Thời điểm thực hiện cũng cần được nghiên cứu kỹ".</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cafef-slide swiper-slide">
+                    <div class="table-cell">
+                        <div class="cs-wrapper">
+                            <img src="images/frame.png" alt="" class="cs-img">
+                            <img src="images/subtitle-5.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500">
+                            <img src="images/quote-5.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                            <img src="images/slide-5.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-delay="200">
+
+                            <div class="csw-content animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                <div class="slimScroll">
+                                    <p>Chiến tranh thương mại chính thức nổ ra khi quyết định áp thuế các mặt hàng nhập khẩu giá trị 34 tỷ USD từ Trung Quốc của Tổng thống Donald Trump chính thức có hiệu lực từ 0h0’ ngày 6/7/2018 giờ Mỹ.</p>
+
+                                    <p>Trung Quốc ngoài việc khởi kiện lên WTO cũng có hành động trả đũa. Sau 3 vòng, tổng giá trị hàng hoá Trung Quốc bị Mỹ áp thuế là 250 tỷ USD và tổng giá trị hàng hoá Trung Quốc áp thuế đáp trả Mỹ là 110 tỷ USD.</p>
+
+                                    <p>Bản chất cuộc chiến này được nhận định không phải về thương mại mà được phát triển bởi hai yếu tố chính, gồm: Cuộc chạy đua giành quyền lực, sự ảnh hưởng trong thế kỷ 21 và sự trỗi dậy của tâm lý bảo hộ, dân tuý.</p>
+
+                                    <p>Dù rất khó đoán chắc cuộc xung đột này kéo dài bao lâu cũng như tác động nhưng IMF dự báo rằng đây là lý do khiến kinh tế toàn cầu thiệt hại 430 tỷ USD.</p>
+
+                                    <p>Tại Việt Nam, cuộc xung đội này tác động theo cả hai chiều. Trong ngắn hạn, Việt Nam có thể đón nhận dòng đầu tư chuyển dịch sản xuất mới cũng như tăng cường xuất khẩu. Nhưng dài hạn, Việt Nam sẽ phải đối diện với rủi ro khi bị Trung Quốc “mượn đường” và trở thành đối tượng bị Mỹ trả đũa hay nguy cơ nhập siêu trầm trọng từ Trung Quốc...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cafef-slide swiper-slide">
+                    <div class="table-cell">
+                        <div class="cs-wrapper">
+                            <img src="images/frame.png" alt="" class="cs-img">
+                            <img src="images/subtitle-6.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500">
+                            <img src="images/quote-6.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                            <img src="images/slide-6.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-delay="200">
+
+                            <div class="csw-content animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                <div class="slimScroll">
+                                    <p>Dự án Luật Đơn vị hành chính – kinh tế đặc biệt (Luật Đặc khu) được trình ra Quốc hội tại kỳ họp thứ 4 hồi tháng 10/2017 và dự kiến thông qua trong kỳ họp thứ 5, Quốc hội khoá XIV hồi tháng 6 năm nay.</p>
+
+                                    <p>Dự luật ban đầu được kỳ vọng tạo cú huých cho tăng trưởng kinh tế Việt Nam, biến 3 địa điểm Vân Đồn (Quảng Ninh) – Bắc Vân Phong (Khánh Hoà) – Phú Quốc (Kiên Giang) trở thành “tổ gọi chim phượng hoàng”.</p>
+
+                                    <p>Khi đưa ra Nghị trường, Luật Đặc khu đã tạo ra sự tranh cãi rất gay gắt giữa các đại biểu và tạo ra làn sóng phản đối mạnh mẽ trong dự luận, đặc biệt tại điều khoản về thời gian giao đất kéo dài đến 99 năm. Tại kỳ họp này, hơn 85% đại biểu tán thành việc lùi thời gian thông qua Dự luật sang kỳ họp thứ 6, diễn ra trong tháng 10/2018.</p>
+
+                                    <p>Tuy nhiên, ngày 24/8, Văn phòng Quốc hội cho biết tại kỳ họp thứ 6, Quốc hội vẫn chưa xem xét dự luật này. Việc hoãn xem xét Dự luật nhằm tiếp tục lấy ý kiến cử tri, nhân dân, các tổ chức, chuyên gia, nhà khoa học qua đó hoàn thiện dự thảo luật, đảm bảo xây dựng thành công 3 đặc khu, giữ vững an ninh – quốc phòng và chủ quyền quốc gia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cafef-slide swiper-slide">
+                    <div class="table-cell">
+                        <div class="cs-wrapper">
+                            <img src="images/frame.png" alt="" class="cs-img">
+                            <img src="images/subtitle-7.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500">
+                            <img src="images/quote-7.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                            <img src="images/slide-7.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-delay="200">
+
+                            <div class="csw-content animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                <div class="slimScroll">
+                                    <p>GS. Klaus Schwab, người sáng lập, Chủ tịch điều hành Diễn đàn kinh tế thế giới (WEF), mô tả WEF ASEAN mà Việt Nam đăng cai tổ chức là sự kiện thành công nhất lịch sử. Tiếp nối thành tựu từ APEC 2017, WEF ASEAN 2018 được đánh giá là cơ hội để Việt Nam thể hiện mình trong khu vực và quốc tế. Sự kiện năm nay cũng được nhớ tới bởi hàng loạt những cái “nhất”.</p>
+
+                                    <p>Diễn ra từ ngày 11-13/9, WEF ASEAN 2018 thu hút 1.000 đại biểu tham dự, trong đó có 7 Tổng thống và Thủ tướng, 2 Phó Thủ tướng, 60 đại biểu cấp Bộ trưởng và hơn 800 lãnh đạo lãnh đạo tập đoàn hàng đầu thế giới và khu vực. Đây là WEF ASEAN có số lượng đại biểu tham dự đông nhất trong lịch sử.</p>
+
+                                    <p>Với chủ đề "ASEAN 4.0: Tinh thần doanh nghiệp và Cách mạng công nghiệp 4.0", WEF ASEAN 2018 được đánh giá là phù hợp với xu thế phát triển của toàn thế giới, mang đến những bài học quan trọng và hữu ích với tổ chức, doanh nghiệp ASEAN trước con sóng thần Các mạng công nghiệp lần thứ 4. Trong vai trò chủ nhà, Việt Nam ghi những dấu ấn rõ nét bởi sự năng động, cởi mở, hiếu khách, năng lực kết nối, điều phối và tổ chức những sự kiện tầm cỡ quốc tế.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cafef-slide swiper-slide">
+                    <div class="table-cell">
+                        <div class="cs-wrapper">
+                            <img src="images/frame.png" alt="" class="cs-img">
+                            <img src="images/subtitle-8.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500">
+                            <img src="images/quote-8.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                            <img src="images/slide-8.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-delay="200">
+
+                            <div class="csw-content animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                <div class="slimScroll">
+                                    <p>Với 7 nước thông qua, trong đó có Việt Nam, CPTPP sẽ chính thức có hiệu lực từ ngày 30/12/2018 với nội dung gần như giữ nguyên so với TPP dù 22 điều khoản được hoãn thực thi chủ yếu liên quan tới sở hữu trí tuệ nhằm bảo đảm sự cân bằng giữa 11 nước thành viên.</p>
+
+                                    <p>Không còn sóng gió như năm 2017, 2018 vẫn có những thời khắc quyết định với số phận CPTPP. Ngay cả khi 11 nước thành viên ký kết hiệp định tại thủ đô Santiago de Chile, Chile hôm 9/3, những người lạc quan nhất cũng vẫn cảm thấy lo lắng cho tương lai của hiệp định.</p>
+
+                                    <p>Tuy nhiên, ngày 31/10 khi New Zealand trở thành nước thứ 6 thông qua CPTPP, hiệp định chính thức có hiệu lực từ ngày 30/12/2018. Việt Nam cũng chính thức thông qua hiệp định chưa đầy 2 tuần sau đó và trở thành quốc gia thứ 7 phê duyệt CPTPP.</p>
+
+                                    <p>Với việc tham gia CPTPP, Việt Nam sẽ có nhiều lợi ích về tăng trưởng GDP cũng như thuận lợi hơn trong việc xuất khẩu các mặt hàng thế mạnh nông sản, thủy sản, điện, điện tử nhờ được xóa bỏ thuế. Tuy nhiên, doanh nghiệp Việt sẽ phải đối mặt sức ép cạnh tranh rất cao vì trình độ công nghệ gần như xếp ở hàng thấp nhất, trong khi hàng rào thuế quan, phi thuế quan sẽ không còn là “cứu cánh”.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cafef-slide swiper-slide">
+                    <div class="table-cell">
+                        <div class="cs-wrapper">
+                            <img src="images/frame.png" alt="" class="cs-img">
+                            <img src="images/subtitle-9.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500">
+                            <img src="images/quote-9.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                            <img src="images/slide-9.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-delay="200">
+
+                            <div class="csw-content animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                <div class="slimScroll">
+                                    <p>Chỉ sau hơn 1 năm thành lập, VinFast – thành viên của Vingroup đã cho ra mắt chiếc xe Sedan và SUV tại Paris Motor Show. Vingroup làm xe hơi với tốc độ kỷ lục nhờ hợp tác với những thương hiệu quốc tế như BMW, Pininfarina, Bosch, Magna… Sự kiện ra mắt xe của VinFast cũng “gây bão” với sự có mặt của David Beckham. Gần 10 triệu lượt xem sự kiện trực tiếp và lúc cao điểm số lượng người xem online đồng thời lên tới hơn 1 triệu.</p>
+
+                                    <p>Rất nhanh sau đó, VinFast giới thiệu xe máy điện Klara cùng xe xăng cỡ nhỏ Fadil. VinFast công bố bán xe với chính sách 3 KHÔNG (Không chi phí khấu hao, không chi phí tài chính và không tính lãi), theo đó giá bán ra thấp hơn 40% so với giá thành sản xuất.</p>
+
+                                    <p>VinSmart – công ty sản xuất điện thoại di động – sau 6 tháng thành lập đã cho ra đời chiếc điện thoại thông minh Vsmart hợp tác cùng BQ, Qualcomm.</p>
+
+                                    <p>Trong tháng 10/2018, sự ra mắt Bphone 3 do BKAV sản xuất cũng nhận được nhiều đánh giá tích cực từ giới công nghệ nhờ những cải tiến về sản phẩm và đặc biệt là mức giá hợp lý hơn (7 triệu đồng) so với các thế hệ trước.</p>
+
+                                    <p>Cần thời gian để trả lời cho câu hỏi: “Những sản phẩm Made in Vietnam nói trên có chinh phục được người tiêu dùng hay không?” nhưng sẽ khó phủ nhận niềm tự hào Việt Nam mà những sản phẩm này mang lại.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cafef-slide swiper-slide">
+                    <div class="table-cell">
+                        <div class="cs-wrapper">
+                            <img src="images/frame.png" alt="" class="cs-img">
+                            <img src="images/subtitle-10.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500">
+                            <img src="images/quote-10.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+                            <img src="images/slide-10.png" alt="" class="cs-img cs-img-top animate" data-aos="fade-left" data-aos-delay="200">
+
+                            <div class="csw-content animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+                                <div class="slimScroll">
+                                    <p>Ngày 06/02/2018, Tòa án nhân dân TP.HCM đã mở phiên tòa xét xử sơ thẩm vụ tranh chấp giữa Vinasun (nguyên đơn) và Grab Việt Nam (bị đơn).</p>
+
+                                    <p>Theo Vinasun, Grab đã lợi dụng Quyết định 24 cho phép thí điểm ứng dụng khoa học công nghệ hỗ trợ kết nối hoạt động vận tải theo hợp đồng, vi phạm pháp luật về vận tải taxi, gây náo loạn thị trường. Nguyên đơn yêu cầu Grab bồi thường thiệt hại 41,2 tỷ đồng.</p>
+
+                                    <p>Phía Grab thì cho rằng cách nhìn của Vinasun đang đi ngược lại công nghệ 4.0 và thông tin do Vinasun đưa ra là vu khống. Grab khẳng định thực hiện đúng tinh thần Quyết định 24.</p>
+
+                                    <p>Sau 9 tháng với 4 lần tạm hoãn, ngày 30/11/2018, Vinasun và Grab đã quyết định ngừng vụ kiện và tự hòa giải.</p>
+
+                                    <p>Trong một diễn biến khác, Dự thảo lần 6 Nghị định 86 về kinh doanh và điều kiện kinh doanh vận tải bằng ô tô cho rằng xe dưới 9 chỗ thí điểm hợp đồng điện tử (như Grab) phải gắn phù hiệu taxi và chịu các quy định ràng buộc như taxi.</p>
+
+                                    <p>Cuối tháng 8/2018, Bộ Giao thông vận tải đã khởi động việc thu thập ý kiến cho Dự thảo Luật giao thông đường bộ. Đây được coi là văn bản sẽ khắc phục hoàn toàn các vấn đề pháp lý hiện nay trong việc định danh và quản lý loại hình dịch vụ mới (như Grab).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+</body>
+</html>
