@@ -16,7 +16,7 @@
     <script src="js/slimscroll.js"></script>
     <script src="js/swiper.min.js"></script>
     <script>
-        $(function() {
+        $(document).ready(function() {
             new AOS.init();
 
             var cafef = new Swiper('.swiper-container', {
@@ -43,8 +43,9 @@
                     }
                 }
             });
+            cafef.allowTouchMove = false;
 
-            $('.cafef-slide').not(':eq('+ cafef.activeIndex +')').find('.animate').removeClass('aos-init').removeClass('aos-animate');
+            $('.cafef-slide').not(':eq(0)').find('.animate').removeClass('aos-init').removeClass('aos-animate');
 
             $('.slimScroll').slimScroll({
                 height: '100%'
@@ -52,10 +53,8 @@
 
             $('.csw-content').hover(function() {
                 cafef.mousewheel.disable();
-                cafef.allowTouchMove = false;
             }, function() {
                 cafef.mousewheel.enable();
-                cafef.allowTouchMove = true;
             })
         })
     </script>
@@ -65,12 +64,12 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="cafef-slide swiper-slide cafef-cover">
-                    <img src="images/cover-1.png" alt="" class="cc-img animate" data-aos="fade-up-right" data-aos-duration="500">
-                    <img src="images/cover-2.png" alt="" class="cc-img animate" data-aos="fade-right" data-aos-duration="500" data-aos-delay="100">
-                    <img src="images/cover-3.png" alt="" class="cc-img animate" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
-                    <img src="images/cover-4.png" alt="" class="cc-img animate" data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="200">
-                    <img src="images/cover-5.png" alt="" class="cc-img animate" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
-                    <img src="images/cover-6.png" alt="" class="cc-img animate" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+                    <img src="images/cover-1.png" alt="" class="cc-img animate" data-aos="fade" data-aos-duration="500">
+                    <img src="images/cover-2.png" alt="" class="cc-img animate" data-aos="fade" data-aos-duration="500" data-aos-delay="100">
+                    <img src="images/cover-3.png" alt="" class="cc-img animate" data-aos="fade" data-aos-duration="500" data-aos-delay="400">
+                    <img src="images/cover-4.png" alt="" class="cc-img animate" data-aos="fade" data-aos-duration="500" data-aos-delay="200">
+                    <img src="images/cover-5.png" alt="" class="cc-img animate" data-aos="fade" data-aos-duration="500" data-aos-delay="300">
+                    <img src="images/cover-6.png" alt="" class="cc-img animate" data-aos="fade" data-aos-duration="500" data-aos-delay="500">
 
                     <div class="table-cell">
                         <div class="cc-wrapper">
