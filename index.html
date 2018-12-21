@@ -17,6 +17,8 @@
     <script src="js/swiper.min.js"></script>
     <script>
         $(function() {
+            new AOS.init();
+
             var cafef = new Swiper('.swiper-container', {
                 speed: 300,
                 effect: 'fade',
@@ -41,7 +43,6 @@
                     }
                 }
             });
-            new AOS.init();
 
             $('.cafef-slide').not(':eq('+ cafef.activeIndex +')').find('.animate').removeClass('aos-init').removeClass('aos-animate');
 
